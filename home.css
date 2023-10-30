@@ -1,0 +1,103 @@
+/* Nav Bar */
+body {
+    background-color: black;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+}
+header {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    text-align: center;
+    background-color: black;
+    
+
+    
+}
+.navbar ul{
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+   
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 2rem;
+    
+
+}
+
+.navbar ul li a {
+text-decoration: none;
+color: white;
+transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: fuchsia;
+
+}
+
+/* Hero */
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photos/vinylheroimg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh; /* Set the height to 80% of the viewport height */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+}
+.hero-text {
+    font-size: 2rem;
+}
+
+.welcome {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+  
+}
+.welcome h2 {
+    color: white;
+}
+
+.welcome p {
+    color: white;
+    text-align: center;
+    font-size: 1.27rem;
+}
+
+
+/* footer */
+footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  footer a{
+    color: fuchsia;
+  }
+  footer a:hover{
+    color: #d5487a;
+  }
