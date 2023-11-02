@@ -16,7 +16,6 @@ header {
     background-color: black;
     
 
-    
 }
 .navbar ul{
     list-style: none;
@@ -44,7 +43,7 @@ nav ul li a:hover {
 
 }
 
-/* Hero */
+/* Welcome Page */
 
 
 .hero-image {
@@ -54,8 +53,8 @@ nav ul li a:hover {
     background-attachment: fixed;
     height: 80vh; 
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: center; 
+    align-items: center; 
     margin: 0;
     padding: 0;
     border: none;
@@ -84,12 +83,6 @@ nav ul li a:hover {
     font-size: 1.27rem;
 }
 
-/* shop page */
-
-.shop {
-    text-align: center;
-    font-size: 2.5rem;
-}
 
 /* footer */
 footer {
@@ -104,55 +97,14 @@ footer {
   footer a{
     color: fuchsia;
   }
-  
 
-  /* contact form */
-  
-.contactus {
-    text-align: center;
-    font-size: 2rem;
+
+ /* shop page */
+
+.shop {
+  text-align: center;
+  font-size: 2.5rem;
 }
-
-  .contact-form {
-    text-align: center;
-    height: 30rem;
-    width: 30rem;
-    margin: 0 auto;
-    background-color: white;
-    padding: 2rem;
-    border-radius: 10px;
-  }
-
-form textarea,
-form input[type="text"],
-form input[type="email"] ,
-form input[type="phone"]  {
-  width: 85%;
-  padding: 1rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 34px;
-} 
-
-form label {
-    font-size: 1.2rem;
-    color: fuchsia;
-    font-weight: 900;
-  }
-
-  .contact-form button {
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    background-color:fuchsia;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    
-
-  }
-
-  /* shop */
   .grid-container img{
     width: 15rem;
     height: 15rem;
@@ -174,35 +126,172 @@ form label {
     border: none;
     border-radius: 5px;background-color: fuchsia;
     font-family: 'Advent Pro', sans-serif;
+    cursor: pointer;
   }
+
+  /* .item {
+    width: auto ;
+    height: 30rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(65, 63, 63, 0.5);
+    border-radius: 1rem;
+    
+  } */
+  
+
+  /* contact form */
+  
+.contactus {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact-form {
+    text-align: center;
+    height: 30rem;
+    width: 30rem;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+
+form textarea,
+form input[type="text"],
+form input[type="email"] ,
+form input[type="phone"]  {
+  width: 85%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 34px;
+} 
+
+form textarea {
+  resize: none;
+}
+
+form label {
+    font-size: 1.2rem;
+    color: fuchsia;
+    font-weight: 900;
+  }
+
+  .contact-form button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color:fuchsia;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+  }
+
 
   /* footer */
 
-  .subscribe input[type=text] {
+.subscribe input[type=text] {
     width: 30vw;
     padding: 1rem;
+
   }
 
-  .subscribe {
-    margin-bottom: 1rem;
+.subscribe {
+    margin-bottom: .5rem;
     text-align: center;
     padding: 2rem;
   }
 
- 
+footer {
+  background-color:black;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 
-  @media screen and (max-width: 800px) {
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+}
+
+ 
+/* media queries */
+  /* @media screen and (max-width: 800px) {
     .grid-container {
       grid-template-columns: auto auto ;
+      ;
+    
     }
     .grid-container img {
-      width: 10rem;
-      height: 10rem;
+      width: 9.8rem;
+      height: 9.8rem;
     }
   }
+
 
   @media screen and (min-width: 1000px) {
     .grid-container {
       grid-template-columns: auto auto auto auto;
     }
+  
+  } */
+
+  @media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .navbar ul {
+        text-align: center;
+        display: block;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+      .hero-image {
+          height: 60vh;
+      }
+      .hero-text {
+          font-size: 1.5rem;
+      }
+      .shop {
+        font-size: 2rem; 
+      }
+    
+      .grid-container img {
+        width: 100%; 
+        height: auto; 
+      }
+    
+      .grid-container {
+        grid-template-columns: 1fr; 
+        gap: 0.5rem; 
+      }
+      .contact-form {
+        text-align: center;
+        height: 25rem;
+        width: 15rem;
+
+    }
+    #footer-email {
+      align-items: center;
+    }
   }
+  
+
+
+
+
+  

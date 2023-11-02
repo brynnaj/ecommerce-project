@@ -26,12 +26,12 @@
         </section>
 
         <section class="contact-form">
-            <form>
+            <form id="vvForm">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" >
 
                 <label for="email">Email:</label>
-                <input type="text" id="email" name="email" required>
+                <input type="text" id="email" name="email" >
 
                 <label for="comments">Comments:</label>
                 <textarea id="comments" name="comments" rows="5"></textarea>
@@ -40,15 +40,17 @@
             </form>
 
         </section>
-        <footer>
+        <footer class="footer">
             <h3>Subscribe to our newsletter for updates!</h3>
             <form class="subscribe">
             <input type="text" id="footer-email" name="footer-email" required>
             <button>Submit</button>
             </form>
+            <div class="social-links">
             <a href="https://www.facebook.com/brynnaj">Facebook</a>
             <a href="https://www.instagram.com/brynn.aj/">Instagram</a>
+            </div>
           </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
