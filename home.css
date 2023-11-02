@@ -129,16 +129,7 @@ footer {
     cursor: pointer;
   }
 
-  /* .item {
-    width: auto ;
-    height: 30rem;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: rgb(65, 63, 63, 0.5);
-    border-radius: 1rem;
-    
-  } */
-  
+
 
   /* contact form */
   
@@ -223,27 +214,7 @@ a:hover{
   cursor: pointer;
 }
 
- 
-/* media queries */
-  /* @media screen and (max-width: 800px) {
-    .grid-container {
-      grid-template-columns: auto auto ;
-      ;
-    
-    }
-    .grid-container img {
-      width: 9.8rem;
-      height: 9.8rem;
-    }
-  }
 
-
-  @media screen and (min-width: 1000px) {
-    .grid-container {
-      grid-template-columns: auto auto auto auto;
-    }
-  
-  } */
 
   @media (max-width: 768px) {
     header {
